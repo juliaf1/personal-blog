@@ -6,6 +6,7 @@
   box-shadow: 1px 1px 6px rgba(50, 50, 50, 0.1);
   border-radius: 10px;
   padding: 40px 32px;
+  background-color: $white;
 
   p {
     font-family: 'Montserrat', sans-serif;
@@ -37,9 +38,9 @@
   border: 1px solid $neutral-dark-blue;
   color: $neutral-dark-blue;
   border-radius: 10px;
-  font-family: 'Work Sans', 'sans-serif';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 10px 60px;
