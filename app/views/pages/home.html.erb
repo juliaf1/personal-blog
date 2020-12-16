@@ -1,1 +1,40 @@
-<h1>Home</h1>
+<div class="home-container">
+
+  <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="200">
+        <%= image_tag "operarios.jpg", class: 'd-block w-100' %>
+        <div class="carousel-caption d-none d-md-block">
+          <h3>A construção da identidade brasileira na arte</h3>
+          <p>Uma análise da obra Operários da Tarsila do Amaral.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <%= image_tag "3d-printer.jpg", class: 'd-block w-100' %>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <%= image_tag "operarios.jpg", class: 'd-block w-100' %>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#home-carousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+    <a class="carousel-control-next" href="#home-carousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script>
+  $( document ).ready(function(){
+  $('#carousel').carousel();
+  });
+</script>

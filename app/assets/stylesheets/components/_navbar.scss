@@ -1,10 +1,19 @@
-.admin-navbar-container {
+.content-container {
+  margin-top: 80px;
+}
+
+// Admin Navbar
+
+.navbar-container {
   width: 100%;
   height: 80px;
   background-color: $white;
   border: 1px solid $black;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 
-  .admin-navbar-options {
+  .navbar-options {
     height: 100%;
     width: 100%;
     display: flex;
@@ -33,3 +42,7 @@
     color: $neutral-dark-blue;
   }
 }
+
+// Normal navbar
+
+
