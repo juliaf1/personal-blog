@@ -20,6 +20,9 @@
 
   <body>
     <%= render 'shared/flashes' %>
+    <% if current_user.admin %>
+      <%= render 'shared/admin_navbar' %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
