@@ -1,0 +1,19 @@
+.article-form-container {
+  padding: 40px 0;
+  margin: 80px auto;
+  width: 75%;
+}
+
+.article-form-card {
+  text-align: center;
+  margin: 40px 0 200px;
+  box-shadow: 1px 1px 6px rgba(50, 50, 50, 0.1);
+  border-radius: 10px;
+  padding: 40px 32px;
+
+  .form-inputs {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+}
