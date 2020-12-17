@@ -1,0 +1,11 @@
+<div class="articles-container">
+  <div class="articles-cards-container">
+    <% @posts.each do |post| %>
+      <%= link_to post_path(post) do %>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path post.photo.key, crop: :fill %>');">
+          <%= post.subtitle %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
