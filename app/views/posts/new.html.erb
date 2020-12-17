@@ -1,7 +1,7 @@
 <div class="article-form-container">
   <div class="article-form-card">
 
-    <%= simple_form_for(@post, url: post_path, method: 'post') do |f| %>
+    <%= simple_form_for @post, url: posts_path, method: 'post' do |f| %>
       <%= f.error_notification %>
 
       <div class="form-inputs">

@@ -1,0 +1,82 @@
+.article-container {
+  width: 800px;
+  margin: 50px auto;
+
+  p {
+    white-space: pre-wrap;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .article-container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px){
+  .article-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .article-container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .article-container {
+    width: 300px;
+  }
+}
+
+.article-container p {
+  margin: 18px 0;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  margin: 22px 0;
+}
+
+.article-banner {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.83)), url('image/operarios.jpg');
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.article-banner p {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.article-banner h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(117, 255, 175, 1), rgba(117, 255, 175, 1));
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}

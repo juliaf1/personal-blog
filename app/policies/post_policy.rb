@@ -12,11 +12,11 @@ class PostPolicy < ApplicationPolicy
     admin?
   end
 
-  def destroy
+  def destroy?
     admin?
   end
 
-  def update
+  def update?
     admin?
   end
 

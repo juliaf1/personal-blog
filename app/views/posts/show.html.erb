@@ -1,0 +1,11 @@
+<div class="article-banner" style="background-image: linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.6)), url('<%= cl_image_path @post.photo.key, crop: :fill %>');">
+  <div class="article-container">
+    <h1><%= @post.title %></h1>
+    <p><%= @post.subtitle %></p>
+  </div>
+</div>
+
+<div class="article-container">
+  <h2><%= @post.heading %></h1>
+  <p><%= @post.content %></p>
+</div>
