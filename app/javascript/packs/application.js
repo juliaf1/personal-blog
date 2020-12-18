@@ -10,7 +10,5 @@ require("channels")
 
 import "bootstrap";
 
-import { carousel } from '../components/carousel.js';
-
 document.addEventListener('turbolinks:load', () => {
 });
