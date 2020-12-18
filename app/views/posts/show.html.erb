@@ -1,3 +1,7 @@
+<% content_for :meta_title, "#{@post.title} - #{DEFAULT_META["meta_product_name"]}" %>
+<% content_for :meta_description, @post.heading %>
+<% content_for :meta_image, cl_image_path(@post.photo.path) %>
+
 <div class="article-banner" style="background-image: linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.6)), url('<%= cl_image_path @post.photo.key, crop: :fill %>');">
   <div class="article-container">
     <h1><%= @post.title %></h1>
